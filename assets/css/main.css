@@ -1829,8 +1829,8 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
-  background: #059652;
+  color: #6853a5;
+  background: #fff;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1888,7 +1888,8 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #fff;
+  color: #6853a5;
 }
 
 @keyframes animate-loading {
