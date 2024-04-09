@@ -1,2 +1,1 @@
-# YSeven
-# yseven
+# Site Oficial da Agência YSeven (yseven.com.br)

@@ -1801,7 +1801,7 @@ section {
   color: var(--color-primary);
 }
 
-.contact .php-email-form {
+.contact .form-ajustado {
   width: 100%;
   height: 100%;
   background: #fff;
@@ -1810,11 +1810,11 @@ section {
   border-radius: 0 10px 10px 0;
 }
 
-.contact .php-email-form .form-group {
+.contact .form-ajustado .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.contact .form-ajustado .error-message {
   display: none;
   color: #fff;
   background: #df1529;
@@ -1823,11 +1823,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .form-ajustado .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contact .form-ajustado .sent-message {
   display: none;
   color: #6853a5;
   background: #fff;
@@ -1836,14 +1836,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contact .form-ajustado .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contact .form-ajustado .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1855,30 +1855,30 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .form-ajustado input,
+.contact .form-ajustado textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
-.contact .php-email-form textarea {
+.contact .form-ajustado input[type=text],
+.contact .form-ajustado input[type=email],
+.contact .form-ajustado textarea {
   padding: 12px 15px;
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
-.contact .php-email-form textarea:focus {
+.contact .form-ajustado input[type=text]:focus,
+.contact .form-ajustado input[type=email]:focus,
+.contact .form-ajustado textarea:focus {
   border-color: var(--color-primary);
 }
 
-.contact .php-email-form textarea {
+.contact .form-ajustado textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .form-ajustado button[type=submit] {
   background: var(--color-primary);
   border: 0;
   padding: 14px 45px;
@@ -1887,7 +1887,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .form-ajustado button[type=submit]:hover {
   background: #fff;
   color: #6853a5;
 }
