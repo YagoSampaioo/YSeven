@@ -38,7 +38,6 @@ body {
 }
 
 a {
-  color: var(--color-primary);
   text-decoration: none;
 }
 
@@ -105,7 +104,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs .page-header {
-  padding: 0px 0 80px 0;
+  padding: 0px 0 0px 0;
   min-height: 100vh;
   position: relative;
   background-color: var(--color-primary);
@@ -2144,6 +2143,10 @@ section {
 /*--------------------------------------------------------------
 # Blog Details
 --------------------------------------------------------------*/
+.politica p{
+  text-align: center;
+}
+
 .blog .blog-details {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   padding: 30px;
