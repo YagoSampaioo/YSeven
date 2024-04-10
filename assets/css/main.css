@@ -38,12 +38,12 @@ body {
 }
 
 a {
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #00b6a1;
-  text-decoration: none;
+  text-decoration:underline;
 }
 
 h1,
